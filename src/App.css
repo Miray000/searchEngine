@@ -1,0 +1,162 @@
+body
+{
+  background-color: rgb(32	33 36);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.mg
+{
+  width: 50%;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: center;
+}
+
+.menu_item
+{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.mage
+{
+  display: flex;
+  justify-content: center;
+}
+
+.mage
+{
+  width: 70%;
+}
+
+.ceny
+{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ row-gap: 20px;
+ margin-top: 20px;
+ 
+}
+
+.many 
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.homer
+{
+ margin-top: 100px;
+}
+
+.inp
+{
+  border-radius: 25px;
+  background-color: rgb(48	49 52);
+  width: 200px;
+  height: 30px;
+  color: white;
+  border: none;
+  padding-left: 20px;
+  
+}
+
+.inp::placeholder
+{
+  color: white;
+
+}
+
+
+.inp:focus
+{
+  color: white;
+}
+
+.silka
+{
+  text-align: left;
+  position: relative;
+  color: #61dafb;
+  
+}
+
+.op 
+{
+  margin: 0px 100px;
+}
+
+.tile
+{
+  color: lightgray;
+  text-align: left;
+}
+
+
+.lon
+{
+  color: rgb(97	99 104);
+}
+
+.lon:hover
+{
+  color: #61dafb;
+}
+
+
+.dop
+{
+  text-align: center;
+  width: 350px;
+  color: #61dafb;
+}
+
+.pos 
+{
+  text-decoration: none;
+}
